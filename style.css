@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    font-size: 70px;
+    text-decoration: underline;
+}
+
+.joke {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+.jokes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    margin: 50px;
+    height: 100px;
+    width: 300px;
+    font-size: 40px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    box-shadow: 15px 15px 15px rgba(0,0,0, .29), inset 20px 20px 20px rgba(255,255,255, .44);
+}
